@@ -1,0 +1,54 @@
+
+#parent{
+    background-image:url(bbackground.jpg);
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    height: 810px;
+    width: 1260px;
+    
+}
+
+
+#container{
+    display: flex;
+    margin-top: 120px;
+    width: 400px;
+    height: 450px;
+    border: 2px solid rgb(61, 207, 240);
+    border-radius: 6px;
+}
+#left{
+   text-align: center;
+    width: 200px;
+    height:450px;
+}
+
+#right{
+text-align: center;
+    width: 200px;
+    height:450px;
+ 
+}
+
+.leftchilds{
+
+    width: 200px;
+    height: 146px;
+
+}
+
+
+.rightchilds{
+    width: 200px;
+    height: 146px;
+}
+
+
+#static{
+    width:60px;
+    height: 100px;
+    position: fixed;
+    top: 300px;
+    right: 8px;
+}
